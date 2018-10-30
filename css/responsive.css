@@ -1,0 +1,298 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .container {
+    width: 100%;
+    padding: 0 2px 0 2px;
+  }
+
+/*NAV BAR*/
+.container-nav-desktop {
+  display: none;
+}
+
+.container-nav-responsive {
+  display: inline-block;
+}
+
+.main-menu .container-nav-responsive ul {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu .container-nav-responsive li {
+  padding: 0;
+  font-size: 1.2em;
+  margin: 5px 10px 5px 20px;
+}
+
+.main-menu .container-nav-responsive li:first-of-type {
+  margin-left: 5px;
+}
+
+.main-menu .container-nav-responsive li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo {
+  height: 40px;
+}
+
+.container-nav-responsive {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 35px;
+  align-items: center;
+}
+
+/*HEADER*/
+
+.home-header {
+  margin-top: 45px;
+  padding: 10px 10px 20px 10px;
+  background-image: url('../image/headerResponsive.png');
+}
+
+h1 {
+  font-size: 3.7em;
+  margin: 150px 0 25px 0;
+  text-align: right;
+}
+
+.btn:nth-child(1) {
+  margin: 0px 0 10px 0px;
+  padding: 12px 54px 12px 54px;
+}
+
+.btn:nth-child(2) {
+  margin: 0px;
+  color: #333;
+}
+
+.btn {
+  font-size: 0.79em;
+}
+
+.btn-line {
+  margin-top: 50px;
+}
+
+/*BANDEAU PROMO*/
+.caption {
+  width: 100%;
+  margin: 60px 0px 70px 0px;
+  border-top-color: #333;
+  border-top-style: solid;
+  border-right-color: #333;
+  border-right-style: solid;
+  border-bottom-color: #333;
+  border-bottom-style: solid;
+  border-left-color: #333;
+  border-left-style: solid;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-width: 3px 0;
+  padding: 20px 1px 20px 1px;;
+}
+
+h3 {
+  font-size: 1em;
+  text-align: left;
+  line-height: 35px;
+}
+
+h3 span {
+  border-top-color: #333;
+  border-top-style: none;
+  border-right-color: #333;
+  border-right-style: none;
+  border-bottom-color: #333;
+  border-bottom-style: none;
+  border-left-color: #333;
+  border-left-style: none;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-width: 3px 0;
+  padding: 0px;
+}
+
+.caption p {
+  font-size: 0.9rem;
+  margin: 20px 0 25px 0;
+}
+
+/*CONCEPT*/
+.concept {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 55px;
+  padding-top: 65px;
+  font-size: 2.2rem;
+}
+.concept p {
+  font-size: 1rem;
+}
+
+.concept .first-p-responsive {
+  display: block;
+  margin: 65px 10px 0 10px;;
+  line-height: 22px;
+  text-align: center;
+}
+
+.concept .second-p-responsive {
+  display: block;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.concept .first-p, .second-p {
+  display: none;
+}
+
+/*ARTICLES*/
+h4 {
+  font-weight: 650;
+  font-size: 1.5rem;
+  letter-spacing: 1.7rem;
+  margin: 65px 0 30px 6px;;
+}
+
+.product-row {
+  flex-direction: column;
+  margin-left: 12px
+}
+
+.product {
+  margin: 0 0 20px 0;
+}
+
+/*ICONS*/
+.icons-row {
+  flex-direction: column;
+  margin: 45px 0 20px 0;
+  padding: 60px 0 60px 0;
+}
+
+.icons {
+  margin: 0 0 40px 0;
+}
+
+/*LABELS*/
+.labels-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.labels-row img {
+  margin: 7px;
+  width: 100px;
+}
+
+
+
+/*FOOTER*/
+footer {
+  height: 600px;
+}
+
+.footer-top {
+  flex-direction: column;
+}
+
+form {
+  margin-left: 10px;
+}
+
+input, textarea {
+  width: 340px;
+  margin: 0 5px 0 5px;
+}
+
+div.button {
+  text-align: center;
+}
+
+input.button {
+  font-size: 1.5rem;
+  width: 150px;
+  padding: 4px 0 6px;
+  margin: 10px;
+}
+
+p.form-title {
+  letter-spacing: 0.7rem;
+}
+
+.footer-right {
+  flex-direction: column-reverse;
+}
+
+.link-social-network {
+  text-align: center;
+}
+
+.footer-top p.p-seo {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0;
+  margin: 15px 10px 15px 10px;
+}
+
+.link-social-network img {
+  height: 40px;
+  margin: 20px 20px 10px 20px;
+}
+
+.list-footer {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+ul {
+  padding: 0 5px;
+  text-align: justify;
+}
+
+ul h6 {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.list-footer ul li {
+  display: none;
+}
+
+p.copyright {
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+}
+
+/*BACK TO TOP*/
+.back-to-top {
+  font-size: 40px;
+  bottom: 0px;
+  right: 5px;
+}
+
+}
